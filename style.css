@@ -21,3 +21,8 @@
     text-align: center;
     justify-content: center;
 }
+#foot{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
