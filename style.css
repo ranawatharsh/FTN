@@ -29,3 +29,9 @@
     font-family: 'Pacifico', cursive;
     font-size:40px;
 }
+
+#downlaod-btn{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
