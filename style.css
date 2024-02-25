@@ -28,10 +28,17 @@
     justify-content: center;
     font-family: 'Pacifico', cursive;
     font-size:40px;
+    margin-top: 0%;
 }
 
 #downlaod-btn{
     display: flex;
     justify-content: center;
     align-items:center ;
+}
+#foot-text{
+text-align: center;
+margin-top: 10vh;
+margin-bottom: 0;
+font-size: large;
 }
