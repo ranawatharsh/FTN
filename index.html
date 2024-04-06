@@ -333,11 +333,21 @@
                 // Open Google Pay app on Android
                 window.location.href = 'upi://pay?pa=7028830914@axl&pn=RecipientName&am=100&cu=INR&tn=PaymentDescription';
             } else if (isiOS) {
-              var imgSrc = 'images\IMG_3899.jpg'; // Replace 'path_to_your_image.jpg' with the actual path to your image
-              window.location.href = imgSrc;
+              var targetPageUrl = 'QRCODE.html'; 
+
+              window.location.href = targetPageUrl;
+
+
+              window.open(imageUrl, '_blank');
             } else {
                 // Provide alternative instructions for other devices
-                alert('Please open the Google Pay app or website to complete the payment.');
+                //alert('Please open the Google Pay app or website to complete the payment.');
+               // var imgSrc = 'images\IMG_3899.jpg'; // Replace 'path_to_your_image.jpg' with the actual path to your image
+              //window.location.href = imgSrc;
+              //var imageUrl = 'images\IMG_3899.jpg'; 
+             // window.open(imageUrl, '_blank');
+             var targetPageUrl = 'QRCODE.html'; 
+              window.location.href = targetPageUrl;
             }
         });
     </script>
