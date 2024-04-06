@@ -162,19 +162,19 @@
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap -m-4 text-center">
               <div class="p-4 sm:w-1/4 w-1/2">
-                <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2.7K</h2>
+                <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">123</h2>
                 <p class="leading-relaxed">No. Of Drives</p>
               </div>
               <div class="p-4 sm:w-1/4 w-1/2">
-                <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.8K</h2>
+                <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">250Kg</h2>
                 <p class="leading-relaxed">Food Donated</p>
               </div>
               <div class="p-4 sm:w-1/4 w-1/2">
-                <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">35</h2>
+                <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.5K</h2>
                 <p class="leading-relaxed">People Helped</p>
               </div>
               <div class="p-4 sm:w-1/4 w-1/2">
-                <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">4</h2>
+                <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900"></h2>
                 <p class="leading-relaxed">Amount Donated</p>
               </div>
             </div>
@@ -333,8 +333,8 @@
                 // Open Google Pay app on Android
                 window.location.href = 'upi://pay?pa=7028830914@axl&pn=RecipientName&am=100&cu=INR&tn=PaymentDescription';
             } else if (isiOS) {
-                // Open Google Pay website or provide alternative instructions for iOS
-                window.open('https://pay.google.com', '_blank');
+              var imgSrc = 'path_to_your_image.jpg'; // Replace 'path_to_your_image.jpg' with the actual path to your image
+              window.location.href = imgSrc;
             } else {
                 // Provide alternative instructions for other devices
                 alert('Please open the Google Pay app or website to complete the payment.');
