@@ -21,7 +21,7 @@
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <a href="gallery.html" class="mr-5 hover:text-gray-900">Gallery</a>
             <a href="Contactus.html" class="mr-5 hover:text-gray-900">Contact Us</a>
-            <a href="upi://pay?pa=7028830914@axl&pn=FTNFOUNDATION&am=50&cu=INR&tn=MemberFund" class="mr-5 hover:text-white bg-blue-400 p-2 rounded">Pay MF</a>
+            <a id="paymentButton" href="#" class="mr-5 hover:text-white bg-blue-400 p-2 rounded">Pay MF</a>
             
           </nav>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxvnfZOVuHn14sZSJuApAT--2aqd7zwa5EErYASdNVjA1EeA/alreadyresponded"><button id="Nav-btn"  class="inline-flex items-center bg-gray-100 border-0 py-3 px-6 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Join Us
@@ -331,7 +331,7 @@
 
             if (isAndroid) {
                 // Open Google Pay app on Android
-                window.location.href = 'upi://pay?pa=7028830914@axl&pn=RecipientName&am=100&cu=INR&tn=PaymentDescription';
+                window.location.href = 'upi://pay?pa=7028830914@axl&pn=FTNFOUNDATION&am=?&cu=INR&tn=Donation';
             } else if (isiOS) {
               var targetPageUrl = 'QRCODE.html'; 
 
