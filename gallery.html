@@ -7,22 +7,132 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-<section>
- 
-  
-
-
-
-
-  
-
-
-
+  <section class="container mx-auto px-4 py-8">
+    <h2 class="text-3xl font-bold text-center mb-8">Our Gallery</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <!-- Repeat this div for each image in your gallery -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="images\IMG_3741.JPG" alt="Gallery Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Gaushala Visit</h3>
+                <!-- <p class="text-gray-600">Brief description of the image.</p> -->
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="images\IMG_5905.jpg" alt="Gallery Image" class="w-full h-48 object-cover">
+          <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">Orphanage Visit</h3>
+              <!-- <p class="text-gray-600">Brief description of the image.</p> -->
+          </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="images\20240728_110719.jpg" alt="Gallery Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">Deaf And Dumb School </h3>
+            <!-- <p class="text-gray-600">Brief description of the image.</p> -->
+        </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images\IMG_6069.jpg" alt="Gallery Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Old Age Home Visit</h3>
+          <!-- <p class="text-gray-600">Brief description of the image.</p> -->
+      </div>
+  </div>
+        <!-- Repeat 7 more times for a total of 8 images -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="images\IMG_4229.JPG" alt="Gallery Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">Blood Donation</h3>
+                <!-- <p class="text-gray-600">Brief description of the image.</p> -->
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img src="images\IMG_1400.jpg" alt="Gallery Image" class="w-full h-48 object-cover">
+          <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">Food Donation</h3>
+              <!-- <p class="text-gray-600">Brief description of the image.</p> -->
+          </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="images\IMG_0308.jpg" alt="Gallery Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">Cleanliness Drive</h3>
+            <!-- <p class="text-gray-600">Brief description of the image.</p> -->
+        </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="images\IMG_0472.jpg" alt="Gallery Image" class="w-full h-48 object-cover">
+      <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Old Age Home</h3>
+          <!-- <p class="text-gray-600">Brief description of the image.</p> -->
+      </div>
+  </div>
+        <!-- ... -->
+    </div>
 </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Reels Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .instagram-media {
+            max-width: 100% !important;
+            width: 100% !important;
+            min-width: 100% !important;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <section class="container mx-auto px-4 py-8">
+        <h2 class="text-3xl font-bold text-center mb-8">Instagram Reels Gallery</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Instagram Reel 1 -->
+            <div class="instagram-embed">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-7kts1oEYF/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14">
+                    <!-- Instagram embed code here -->
+                </blockquote>
+            </div>
+            
+            <!-- Instagram Reel 2 -->
+            <div class="instagram-embed">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C4vrR3OImji/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14">
+                    <!-- Instagram embed code here -->
+                </blockquote>
+            </div>
+            
+            <!-- Instagram Reel 3 -->
+            <div class="instagram-embed">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C0tUb6vIGp5/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14">
+                    <!-- Instagram embed code here -->
+                </blockquote>
+            </div>
+            
+            <!-- Add more reels as needed -->
+        </div>
+    </section>
+
+    <script>
+        // Function to load Instagram embed script
+        function loadInstagramEmbedScript() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '//www.instagram.com/embed.js';
+            document.body.appendChild(script);
+        }
+
+        // Load Instagram embed script after the page has loaded
+        window.addEventListener('load', loadInstagramEmbedScript);
+    </script>
+</body>
+</html>
 
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Gallery</h1>
+            <!-- <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Gallery</h1> -->
           <div class="flex flex-col text-center w-full mb-20">
             
           </div>
@@ -90,7 +200,10 @@
           </div>
         </div>
       </section>
-
+     
+       
+      </body>
+      </html>
       
     
 </body>
